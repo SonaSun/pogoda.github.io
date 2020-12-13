@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/weather.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="country item">Страна
+                <select name="country">
+                    <option value = "AM">Армения</option>
+                    <option value = "BY" selected>Беларусь</option>
+                    <option value = "RU">Россия</option>
+                    <option value = "UK">Украина</option>
+                </select>
+            </div>
+            <div class="city item">Город
+                <select name="city"></select></div>
+            <div class="icon item">Icon</div>
+            <div class="temp item">Температура</div>
+            <div class="humidity item">Влажность</div>
+            <div class="wind item">Скорость ветра</div>
+            <div class="pressure item">Давление</div>
+        </div>
+        <p class="forecast-button"><a href="weatherforecast.html">Прогноз на 5 дней</a></p>
+    </div>
+    <script src="js/list.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
